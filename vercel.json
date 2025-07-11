@@ -8,6 +8,14 @@
     {
       "src": "/(.*)",
       "dest": "/index.php"
+    },
+    {
+
+      "src": "/",
+
+      "dest": "/tataplay"
+
     }
+
   ]
 }
