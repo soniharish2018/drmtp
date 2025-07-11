@@ -1,24 +1,13 @@
 {
-
   "functions": {
-
     "*.php": {
-
       "runtime": "vercel-php@0.7.1"
-
     }
-
   },
-
-  "routes": {
+  "routes": [
     {
-
-      "src": "/",
-
-      "dest": "/tataplay"
-
+      "src": "/(.*)",
+      "dest": "/index.php"
     }
-
   ]
-
 }
